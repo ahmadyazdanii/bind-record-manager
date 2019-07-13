@@ -1,0 +1,29 @@
+{
+  "name": "record-manager",
+  "version": "1.0.0",
+  "description": "Nodejs module for Parse and Generate recordFile of Bind DNS. Manager system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadyazdanii/record-manager.git"
+  },
+  "keywords": [
+    "BIND",
+    "bind",
+    "zone",
+    "record",
+    "dns",
+    "DNS",
+    "recordFile",
+    "zoneFile"
+  ],
+  "author": "Ahmad Yazdani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadyazdanii/record-manager/issues"
+  },
+  "homepage": "https://github.com/ahmadyazdanii/record-manager#readme"
+}
