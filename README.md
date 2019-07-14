@@ -1,5 +1,7 @@
 # bind-record-manager
 
+[![npm version](https://www.npmjs.com/package/i2c-bus)]
+
 Nodejs module for Parse and Generate recordFile of Bind DNS. Manager system
 
 ### Installation
@@ -14,7 +16,7 @@ npm install bind-record-manager --save
 The module developed for [Bind9](https://www.isc.org/bind/) system and support A, AAAA, SOA, MX, NS, TXT, SRV, CNAME records.
 ### Usage
 
-```nodejs
+```javascript
 /*
    import module
 */
@@ -28,9 +30,9 @@ const manager = new RecordManager()
 
 /*
    Parse raw data, if you used <RecordFilePath> for generate manager
-   You do not need to define <RawData> in Parse function
+   You do not need to define {RawData} in Parse function
 */
-var parsedData = manager.Parse('<RawData>') 
+var parsedData = manager.Parse({RawData}) 
 
 /*
    generate {custom-object} to string and you can write it to Record
@@ -39,8 +41,8 @@ var parsedData = manager.Parse('<RawData>')
 var generatedData = manager.Generate({custom-object})
 
 ```
-##### <RawData>
-```string
+##### {RawData}
+```
 $TTL 86400
 
 ; SOA Record
