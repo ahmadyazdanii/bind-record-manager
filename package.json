@@ -1,6 +1,6 @@
 {
-  "name": "record-manager",
-  "version": "2.0.0",
+  "name": "bind-record-manager",
+  "version": "1.0.0",
   "description": "Nodejs module for Parse and Generate recordFile of Bind DNS. Manager system",
   "main": "index.js",
   "scripts": {
