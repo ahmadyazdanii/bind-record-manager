@@ -1,6 +1,6 @@
 # bind-record-manager
 
-[![npm version](https://www.npmjs.com/package/i2c-bus)]
+[![npm version](https://badgen.net/npm/v/bind-record-manager)](https://www.npmjs.com/package/bind-record-manager)
 
 Nodejs module for Parse and Generate recordFile of Bind DNS. Manager system
 
