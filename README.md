@@ -71,7 +71,7 @@ $TTL 86400
 ```
 
 ##### {custom-object}
-```json
+```javascript
 {
      ttl: 86400,
      soa: {Options:{name: '@',
