@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahmadyazdanii/record-manager.git"
+    "url": "git+https://github.com/ahmadyazdanii/bind-record-manager.git"
   },
   "keywords": [
     "BIND",
@@ -23,7 +23,7 @@
   "author": "Ahmad Yazdani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ahmadyazdanii/record-manager/issues"
+    "url": "https://github.com/ahmadyazdanii/bind-record-manager/issues"
   },
-  "homepage": "https://github.com/ahmadyazdanii/record-manager#readme"
+  "homepage": "https://github.com/ahmadyazdanii/bind-record-manager/issues#readme"
 }
