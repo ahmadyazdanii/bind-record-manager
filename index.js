@@ -181,7 +181,8 @@ class RecordManager {
     }
 
     Parse(dataRaw=undefined) {
-        this.setRawData(dataRaw)
+        if(dataRaw) this.setRawData(dataRaw)
+        else this.setRawData()
         this.removeComments()
         this.flatten()
         this.removeBlankLine()
