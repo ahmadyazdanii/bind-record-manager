@@ -193,6 +193,7 @@ class RecordManager {
     }
 
     Generate(recordObject) {
+        if(!recordObject || typeof recordObject !== "object") throw new Error("invalid Generate function input")
         var pattern = this.getGeneratorPattern()
         for (const key in recordObject) {
             if(key === 'ttl') pattern = pattern.replace("{ttl}", `$TTL ${recordObject.ttl}`)
